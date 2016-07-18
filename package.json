@@ -1,0 +1,17 @@
+{
+  "name": "sltests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "wdio-spec-reporter": "0.0.2",
+    "webdrivercss": "^1.1.10",
+    "webdriverio": "^2.4.5"
+  }
+}
