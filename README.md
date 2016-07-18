@@ -25,9 +25,11 @@ console:
 ![console](http://image.prntscr.com/image/501495ec82c64ad4a9790e9c819e9755.png)
 
 failed tests:
+
 ![failed](http://image.prntscr.com/image/739e718696d645e2bdcea8225adc26a9.png)
 
 image diff:
+
 ![diff](http://image.prntscr.com/image/9f4fca136ed74d19a3bfa43c7f529220.png)
 
 
@@ -42,8 +44,11 @@ This example is using mocha with chai, but you can use webdriverio built in test
 
 If you want to use webdriverio with webdrivercss, you need webdriverio v. < 3. **it wont work with version 3 and higher**
 
-######Links
+###Links
 [webdriverio api](http://webdriver.io/api.html)
+
 [webdrivercss](https://github.com/webdriverio/webdrivercss)
+
 [mocha](https://mochajs.org/)
+
 [selenium-standalone](https://github.com/vvo/selenium-standalone)
