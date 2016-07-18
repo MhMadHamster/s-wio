@@ -16,39 +16,28 @@ The instructions below are assuming that you already have **nodejs**, **npm** an
 ### How it looks
 
 dirs structure:
-in the root directory you will have `screenshots` folder and in it folder for each test/file with baseline and failed screenshots in them
-
+in the root directory you will have `screenshots` folder and in it folder for each test/file with baseline and failed screenshots in them  
 ![structure](http://image.prntscr.com/image/e12bef48bdf94021a90715e1be8ce45d.png)
 
-console:
-
+console:  
 ![console](http://image.prntscr.com/image/501495ec82c64ad4a9790e9c819e9755.png)
 
-failed tests:
-
+failed tests:  
 ![failed](http://image.prntscr.com/image/739e718696d645e2bdcea8225adc26a9.png)
 
-image diff:
-
+image diff:  
 ![diff](http://image.prntscr.com/image/9f4fca136ed74d19a3bfa43c7f529220.png)
 
 
 ###Additional Info
-All usefull settings for webdriverio and webdrivercss are in config.js
-
-those are pretty much simple JavaScript objects so you can change them as you like even in config file or particular test.
-
-This example is using mocha with chai, but you can use webdriverio built in test runner [wdio](http://webdriver.io/guide/testrunner/gettingstarted.html) or whatever you like.
-
-**Important!**
-
+All usefull settings for webdriverio and webdrivercss are in config.js  
+those are pretty much simple JavaScript objects so you can change them as you like even in config file or particular test.  
+This example is using mocha with chai, but you can use webdriverio built in test runner [wdio](http://webdriver.io/guide/testrunner/gettingstarted.html) or whatever you like.  
+**Important!**  
 If you want to use webdriverio with webdrivercss, you need webdriverio v. < 3. **it wont work with version 3 and higher**
 
 ###Links
-[webdriverio api](http://webdriver.io/api.html)
-
-[webdrivercss](https://github.com/webdriverio/webdrivercss)
-
-[mocha](https://mochajs.org/)
-
+[webdriverio api](http://webdriver.io/api.html)  
+[webdrivercss](https://github.com/webdriverio/webdrivercss)  
+[mocha](https://mochajs.org/)  
 [selenium-standalone](https://github.com/vvo/selenium-standalone)
