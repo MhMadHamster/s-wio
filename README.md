@@ -29,14 +29,14 @@ image diff:
 ![diff](http://image.prntscr.com/image/9f4fca136ed74d19a3bfa43c7f529220.png)
 
 
-###Additional Info
+### Additional Info
 All usefull settings for webdriverio and webdrivercss are in config.js  
 those are pretty much simple JavaScript objects so you can change them as you like even in config file or particular test.  
 This example is using mocha with chai, but you can use webdriverio built in test runner [wdio](http://webdriver.io/guide/testrunner/gettingstarted.html) or whatever you like.  
 **Important!**  
 If you want to use webdriverio with webdrivercss, you need webdriverio v. < 3. **it wont work with version 3 and higher**
 
-###Links
+### Links
 [webdriverio api](http://webdriver.io/api.html)  
 [webdrivercss](https://github.com/webdriverio/webdrivercss)  
 [mocha](https://mochajs.org/)  
